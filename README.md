@@ -109,7 +109,7 @@ server {
 		set $maint_mode 1;
 	}
 	
-	if ($remote_addr = 192.168.74.3) {
+	if ($remote_addr = 192.168.0.10) {
 	    # disable maintenance mode for your IP (replace with your IP)
 	    set $maint_mode 0;
 	}
